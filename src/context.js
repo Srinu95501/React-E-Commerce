@@ -52,7 +52,7 @@ class ProductProvider extends Component{
             ,()=>{this.addtotals()});
 
         }
-        openModal=(id)=>{
+        openModal=(id)=>{                
             const product = this.getItem(id);
             this.setState(()=>{
                 return {
